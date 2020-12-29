@@ -1,0 +1,31 @@
+<html>
+<head>
+<style>
+body{background-color: powderblue;}
+h1{
+text-align:center;
+color:purple;
+font-family:Arial;}
+img{
+vertical-align:top;}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+</head>
+
+<body>
+<h1><img src="https://media2.giphy.com/media/loj9RWUu7DdSoxrjWd/giphy.gif" width="50" height="50">VISIT YOUR CITY</H1>
+<select onchange="$('#imageToSwap').attr('src', this.options[this.selectedIndex].value);">
+<option>Select City</option>
+<option value="https://imgk.timesnownews.com/story/1551863254-D08eHttVsAEOmds.jpg?tr=w-600,h-450">Bareilly</option>
+<option value="https://www.tajhotels.com/content/dam/thrp/destinations/Lucknow/16x7intro/Intro-16x7.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg">Lucknow</option>
+<option value="https://images.yourstory.com/cs/1/f9a9c740-1239-11e9-804a-690cd9b143bd/about-indore-img1553241751102.jpg?fm=png&auto=format">Indore</option>
+<option value="https://static.toiimg.com/thumb/msid-54559212,width-748,height-499,resizemode=4,imgsize-307081/.jpg">Bangalore</option>
+<option value="https://www.oyorooms.com/travel-guide/wp-content/uploads/2019/09/Best-time-to-visit-Agra-3.jpg">Agra</option>
+<option value="https://upload.wikimedia.org/wikipedia/commons/b/bc/Mumbai_skyline_BWSL.jpg">Mumbai</option>
+<option value="https://www.movingsolutions.in/assets/images/pune-city.jpg">Pune</option>
+<option value="https://media.tacdn.com/media/attractions-content--1x-1/0b/17/29/5a.jpg">Jaipur</option>
+    
+</select>
+<img id="imageToSwap" class="profile" src="https://images.unsplash.com/photo-1533745848184-3db07256e163?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMjA3fDB8MXxzZWFyY2h8MXx8d2VsY29tZXx8MHx8fA&ixlib=rb-1.2.1&q=80&w=1080" height="500" width="1200">
+</body>
+</html>
